@@ -83,4 +83,3 @@ Projeto acadêmico desenvolvido para a disciplina Prática Profissional em Anál
 - Layout responsivo e moderno.
 
 
-## Atualização realizada no branch iteracao2.
