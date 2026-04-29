@@ -1,38 +1,75 @@
 # Sistema de Eventos Acadêmicos
 
-Sistema web completo para gerenciamento de eventos acadêmicos, palestrantes e apresentações.
-Desenvolvido com PHP puro, MySQL, HTML5, CSS3, Bootstrap 5 e JavaScript.
+Sistema web desenvolvido para gerenciamento de eventos acadêmicos, permitindo o cadastro e administração de eventos, palestrantes e apresentações.
+
+## Objetivo
+
+Centralizar o controle de eventos acadêmicos em uma plataforma simples, organizada e de fácil utilização.
 
 ## Tecnologias Utilizadas
-- **Backend:** PHP (PDO)
-- **Banco de Dados:** MySQL
-- **Frontend:** HTML5, CSS3, JavaScript
-- **Framework CSS:** Bootstrap 5
+
+* **Backend:** PHP puro (PDO)
+* **Banco de Dados:** MySQL
+* **Frontend:** HTML5, CSS3 e JavaScript
+* **Framework CSS:** Bootstrap 5
 
 ## Estrutura do Projeto
-- `/assets`: Arquivos estáticos (CSS, JS, Imagens).
-- `/config`: Configurações de banco de dados.
-- `/database`: Arquivos relacionados ao banco de dados (SQL).
-- `/includes`: Componentes reutilizáveis (Header, Footer, Autenticação).
-- `/pages`: Telas restritas do sistema (CRUDs, Dashboard).
 
-## Instruções de Instalação no XAMPP
+* `/assets` → arquivos estáticos (CSS, JS e imagens)
+* `/config` → configuração de banco de dados
+* `/database` → script SQL do banco
+* `/includes` → componentes reutilizáveis
+* `/pages` → páginas internas do sistema
 
-1. **Baixe e instale o XAMPP:** Certifique-se de que o Apache e o MySQL estão rodando.
-2. **Clone ou mova o projeto:** Coloque a pasta `sistema-eventos` dentro do diretório `htdocs` do seu XAMPP (ex: `C:\xampp\htdocs\sistema-eventos` no Windows ou `/Applications/XAMPP/xamppfiles/htdocs/sistema-eventos` no Mac).
-3. **Configure o Banco de Dados:**
-   - Acesse o phpMyAdmin: `http://localhost/phpmyadmin/`
-   - Importe o arquivo `banco.sql` localizado na pasta `database/`. Isso criará o banco `sistema_eventos` e as tabelas necessárias, além de inserir o usuário admin padrão.
-4. **Configure a Conexão:**
-   - Verifique o arquivo `config/database.php`. Se o usuário do MySQL do seu XAMPP for diferente de `root` ou possuir senha, altere essas informações lá.
-5. **Acesso:**
-   - Acesse o sistema pelo navegador: `http://localhost/sistema-eventos/`
-   - O login padrão do administrador é:
-     - **Email:** admin@admin.com
-     - **Senha:** 123456
+## Funcionalidades Implementadas
 
-## Funcionalidades
-- Área pública para visualizar e buscar eventos.
-- Área administrativa protegida por login.
-- Gestão completa (CRUD) de Eventos, Palestrantes e Apresentações.
-- Layout responsivo e moderno.
+* Login administrativo
+* Dashboard principal
+* Cadastro, edição, exclusão e listagem de eventos
+* Cadastro de palestrantes
+* Cadastro de apresentações
+* Busca de eventos
+* Área pública para visualização
+* Layout responsivo
+
+## Como Executar no XAMPP
+
+1. Instale o XAMPP.
+2. Inicie Apache e MySQL.
+3. Copie a pasta do projeto para:
+
+Windows:
+`C:\xampp\htdocs\sistema-eventos`
+
+Mac:
+`/Applications/XAMPP/xamppfiles/htdocs/sistema-eventos`
+
+4. Acesse phpMyAdmin:
+   `http://localhost/phpmyadmin`
+
+5. Importe o arquivo:
+
+`database/banco.sql`
+
+6. Verifique a conexão no arquivo:
+
+`config/database.php`
+
+7. Acesse no navegador:
+
+`http://localhost/sistema-eventos`
+
+## Usuário para Testes
+
+**Email:** [admin@admin.com](mailto:admin@admin.com)
+**Senha:** 123456
+
+## Controle de Versão
+
+Versão entregue referente à **Iteração 2** com tag:
+
+`v2`
+
+## Autor
+
+Projeto acadêmico desenvolvido para a disciplina Prática Profissional em Análise e Desenvolvimento de Sistemas.
