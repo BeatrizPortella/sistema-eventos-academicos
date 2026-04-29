@@ -32,6 +32,11 @@ Centralizar o controle de eventos acadêmicos em uma plataforma simples, organiz
 * Área pública para visualização
 * Layout responsivo
 
+## Controle de Versão
+Versão entregue referente à Iteração 2, identificada no repositório pela tag:
+## v2
+
+
 ## Como Executar no XAMPP
 
 1. Instale o XAMPP.
