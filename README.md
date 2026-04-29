@@ -36,3 +36,6 @@ Desenvolvido com PHP puro, MySQL, HTML5, CSS3, Bootstrap 5 e JavaScript.
 - Área administrativa protegida por login.
 - Gestão completa (CRUD) de Eventos, Palestrantes e Apresentações.
 - Layout responsivo e moderno.
+
+
+Atualização realizada no branch iteracao2.Atualização realizada no branch iteracao2.
