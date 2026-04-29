@@ -23,7 +23,6 @@ Centralizar o controle de eventos acadêmicos em uma plataforma simples, organiz
 
 ## Funcionalidades Implementadas
 
-<<<<<<< HEAD
 * Login administrativo
 * Dashboard principal
 * Cadastro, edição, exclusão e listagem de eventos
@@ -75,11 +74,5 @@ Versão entregue referente à **Iteração 2** com tag:
 ## Autor
 
 Projeto acadêmico desenvolvido para a disciplina Prática Profissional em Análise e Desenvolvimento de Sistemas.
-=======
-## Funcionalidades
-- Área pública para visualizar e buscar eventos.
-- Área administrativa protegida por login.
-- Gestão completa (CRUD) de Eventos, Palestrantes e Apresentações.
-- Layout responsivo e moderno.
 
 
